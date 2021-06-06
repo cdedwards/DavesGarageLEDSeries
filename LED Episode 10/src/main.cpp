@@ -19,12 +19,12 @@
 #define FASTLED_INTERNAL        // Suppress build banner
 #include <FastLED.h>
 
-#define OLED_CLOCK  15          // Pins for the OLED display
+#define OLED_CLOCK  5          // Pins for the OLED display
 #define OLED_DATA   4
 #define OLED_RESET  16
 
 #define NUM_LEDS    40          // FastLED definitions
-#define LED_PIN     5
+#define LED_PIN     15
 
 CRGB g_LEDs[NUM_LEDS] = {0};    // Frame buffer for FastLED
 
